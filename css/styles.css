@@ -63,3 +63,40 @@ img{
 
   }
 }
+body{
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.ref{
+  border:8px solid yellow;
+  float: left;
+  color: grey;
+  height: 800px;
+  width: 700px;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 10px;
+
+}
+.blu{
+  font-size: 20px;
+  color: white;
+  align-items: baseline;
+  border: 8px solid green;
+  float: left;
+  width: 800px;
+
+
+}
+.work{
+  border:6px solid blue;
+  float: right;
+  width: 500px;
+  height: 800px;
+  font-size: 20px;
+  color: white;
+  padding-right: 2px;
+  margin-left: 2px;
+}
