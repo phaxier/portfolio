@@ -1,32 +1,9 @@
 h1{
-  font-size: 88px;
+  font-size: 48px;
   text-align: center;
+  padding-top: 55px;
+  color: steelblue;
 }
-body {
-  background-color: #cccccc;
-}
-p.am{
-  text-align: centre;
-}
-.image1{
-  border:8px solid blue;
-  width: 500px;
-  margin-left: 250px;
-
-}
-.education{
-  float: bottom;
-  padding: 8px;
-  font-size: 18px;
-  color: lime;
-  border:8px solid black;
-}
-.projects{
-  float: left;
-}
-.work{
-  border:8px solid orange;
-  float: right;
-  width: 500px;
-  color: orange;
+.style{
+  text-align: center;
 }
