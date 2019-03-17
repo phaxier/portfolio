@@ -13,8 +13,7 @@ h1{
   margin-left: 200px;
 
 }
-footer{
-  text-align: center;
+
 }
 .nav{
   display: block;
@@ -43,15 +42,24 @@ img{
   opacity: 0.5;
  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
- @media only screen and (min-width: 480px){
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
 
-@media only screen and (max-width: 500px){
-  .responsive {
+.image{
+  padding: 0 6px;
+  float: left;
+    width:24.9999%;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .image {
+        width: 49.9999%;
+        margin: 6px 0;
+
+    }
+}
+@media screen and (min-width: 768px) {
+  .image {
+  }
+  .column {
     width: 100%;
+
   }
 }
