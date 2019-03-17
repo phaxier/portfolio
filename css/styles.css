@@ -11,12 +11,22 @@ p.am{
 .image1{
   border:8px solid blue;
   width: 500px;
-  padding-left: 5px;
-  margin-left: 300px;
+  margin-left: 250px;
+
 }
 .education{
-  border: 8px solid green;
+  float: bottom;
+  padding: 8px;
+  font-size: 18px;
+  color: lime;
+  border:8px solid black;
+}
+.projects{
   float: left;
-  font-size: 20px;
-  color: white;
+}
+.work{
+  border:8px solid orange;
+  float: right;
+  width: 500px;
+  color: orange;
 }
