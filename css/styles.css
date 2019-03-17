@@ -16,3 +16,42 @@ h1{
 footer{
   text-align: center;
 }
+.nav{
+  display: block;
+}
+ul {
+display: block;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #f1f1f1;
+}
+li a{
+  display: block;
+  padding:14px 18px;
+  text-align: left;
+  text-decoration: none;
+}
+li{
+  float: left;
+}
+.active {
+  background-color: #4CAF50;
+}
+img{
+  opacity: 0.5;
+ filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+ @media only screen and (min-width: 480px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
