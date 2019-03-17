@@ -1,9 +1,14 @@
 h1{
-  font-size: 48px;
+  font-size: 72px;
   text-align: center;
   padding-top: 55px;
   color: steelblue;
 }
-.style{
+.text{
+  font-size: 60px;
   text-align: center;
+}
+.image{
+  margin-left: 200px;
+
 }
