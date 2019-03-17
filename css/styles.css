@@ -7,8 +7,12 @@ h1{
 .text{
   font-size: 60px;
   text-align: center;
+  color: skyblue;
 }
 .image{
   margin-left: 200px;
 
+}
+footer{
+  text-align: center;
 }
